@@ -22,6 +22,7 @@ The Gesture Recognition Toolkit (GRT) is a cross-platform, open-source, c++ mach
  (compare_classifiers) folder
      This program to test different classifiers.
      contains:
+     ------
          |
     1  ---makefile: makefile that run multimakefiles 
          |
