@@ -18,7 +18,7 @@ Boost is a set of libraries for the C++ programming language that provide suppor
 The Gesture Recognition Toolkit (GRT) is a cross-platform, open-source, c++ machine-learning library that has been specifically designed for real-time gesture recognition.
 ------------------------------------------------
 
-# Contenents:
+# Continents:
  (compare_classifiers) folder
      This program to test different classifiers.
      contains:
