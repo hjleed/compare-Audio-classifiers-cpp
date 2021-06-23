@@ -27,73 +27,73 @@ The Gesture Recognition Toolkit (GRT) is a cross-platform, open-source, c++ mach
      ------ <br>
          | <br>
     1  ---makefile: makefile that run multimakefiles <br>
-         | <br>
+      &nbsp;   | <br>
     2  ---compare.sh: bash function to execute this program <br>
-         | <br>
+      &nbsp;   | <br>
     3  ---(AbaBoost) folder contains:<br>
-             | <br>
-              ---AdaBoostmain.cpp: the main function of this folder <br>
-             | <br>
-              ---makefile: makefile to execute the program. <br>
-        | <br>
+       &nbsp;      | <br>
+       &nbsp;       ---AdaBoostmain.cpp: the main function of this folder <br>
+        &nbsp;     | <br>
+       &nbsp;       ---makefile: makefile to execute the program. <br>
+      &nbsp; | <br>
     4  ---(BAG) folder contains: <br>
-             | <br>
-              ---mainBAG.cpp: the main function of this folder <br>
-             | <br>
-              ---makefile: makefile to execute the program. <br>
-         | <br>
+        &nbsp;     | <br>
+        &nbsp;      ---mainBAG.cpp: the main function of this folder <br>
+        &nbsp;     | <br>
+        &nbsp;      ---makefile: makefile to execute the program. <br>
+       &nbsp;  | <br>
     5  ---(GMM) folder contains: <br>
-             | <br>
-              ---useGMM.cpp: the main function of this folder <br>
-             | <br>
-              ---makefile: makefile to execute the program. <br>
-         | <br>
+        &nbsp;     | <br>
+        &nbsp;      ---useGMM.cpp: the main function of this folder <br>
+         &nbsp;    | <br>
+         &nbsp;     ---makefile: makefile to execute the program. <br>
+        &nbsp; | <br>
     6  ---(KNN) folder contains: <br>
-             | <br>
-              ---useKNN.cpp: the main function of this folder <br>
-             | <br>
-              ---makefile: makefile to execute the program. <br>
-         | <br>
+         &nbsp;    | <br>
+         &nbsp;     ---useKNN.cpp: the main function of this folder <br>
+         &nbsp;    | <br>
+         &nbsp;     ---makefile: makefile to execute the program. <br>
+        &nbsp; | <br>
     7  ---(MinDist) folder contains: <br>
-             | <br>
-              ---MinDistmain.cpp: the main function of this folder <br>
-             | <br>
-              ---makefile: makefile to execute the program. <br>
-         | <br>
+         &nbsp;    | <br>
+         &nbsp;     ---MinDistmain.cpp: the main function of this folder <br>
+         &nbsp;    | <br>
+         &nbsp;     ---makefile: makefile to execute the program. <br>
+         &nbsp; | <br>
     8  ---(RandomForest) folder contains: <br>
-             | <br>
-              ---RandomForestmain.cpp: the main function of this folder <br>
-             | <br>
-              ---makefile: makefile to execute the program. <br>
-         | <br>
+          &nbsp;   | <br>
+          &nbsp;    ---RandomForestmain.cpp: the main function of this folder <br>
+          &nbsp;   | <br>
+          &nbsp;    ---makefile: makefile to execute the program. <br>
+        &nbsp; | <br>
     9  ---(Softmax) folder contains: <br>
-             | <br>
-              ---Softmax_main.cpp: the main function of this folder <br>
-             | <br>
-              ---makefile: makefile to execute the program. <br>
-         | <br>
+          &nbsp;   | <br>
+          &nbsp;    ---Softmax_main.cpp: the main function of this folder <br>
+          &nbsp;   | <br>
+          &nbsp;    ---makefile: makefile to execute the program. <br>
+        &nbsp; | <br>
     10  ---(SVM) folder contains: <br>
-             | <br>
-              ---SVMmain.cpp: the main function of this folder <br>
-             | <br>
-              ---makefile: makefile to execute the program. <br>
-         | <br>
+         &nbsp;    | <br>
+         &nbsp;     ---SVMmain.cpp: the main function of this folder <br>
+         &nbsp;    | <br>
+          &nbsp;    ---makefile: makefile to execute the program. <br>
+        &nbsp; | <br>
     11  ---(makefeatures) folder contains: <br>
-             | <br>
-             ---makefile: makefile to execute the program. <br>
-             | <br>
-             ---(src) folder contains <br>
-                 | <br>
-                 ---main.cpp: the main function of this folder <br>
-                 | <br>
-                 ---getfeats.cpp: call features functions <br>
-                | <br>
-                 ---features.h:  header of features' fuctions <br>
-                | <br>
-                 ---TDFuns.cpp: function computes time domain features. <br>
-                | <br>
-                 ---FDFuns.cpp: function computes Frequency domain features. <br>
-                | <br>
-                 ---MelFreqCep.cpp: function computes mel-frequency cepstrum (MFCC). <br>
-                | <br>
-                 ---fft4g.cpp: function computes FFT <br>
+         &nbsp;    | <br>
+          &nbsp;   ---makefile: makefile to execute the program. <br>
+          &nbsp;   | <br>
+          &nbsp;   ---(src) folder contains <br>
+          &nbsp;       | <br>
+          &nbsp;       ---main.cpp: the main function of this folder <br>
+           &nbsp;      | <br>
+           &nbsp;      ---getfeats.cpp: call features functions <br>
+           &nbsp;     | <br>
+           &nbsp;      ---features.h:  header of features' fuctions <br>
+           &nbsp;     | <br>
+           &nbsp;      ---TDFuns.cpp: function computes time domain features. <br>
+           &nbsp;     | <br>
+            &nbsp;     ---FDFuns.cpp: function computes Frequency domain features. <br>
+            &nbsp;    | <br>
+            &nbsp;     ---MelFreqCep.cpp: function computes mel-frequency cepstrum (MFCC). <br>
+            &nbsp;    | <br>
+            &nbsp;     ---fft4g.cpp: function computes FFT <br>
