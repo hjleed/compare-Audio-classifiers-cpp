@@ -1,6 +1,8 @@
 # compare-Audio-classifiers:
 GMM, SVM, KNN, MinDist, RandomForests, AdaBoost, BAG, and Softmax
 
+![alt text](https://github.com/hjleed/compare-Audio-classifiers-cpp/blob/master/gg.png)
+
 # To use:
 * Open terminal. 
    $ cd /where/you/saved
